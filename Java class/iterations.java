@@ -1,6 +1,9 @@
 public class iterations {
     public static void main(String[] args) {
-        System.out.println(null);
+
+        for (int i = 1; i < 6; i++) {
+            System.out.println(i);
+        }
     }
 
 }
