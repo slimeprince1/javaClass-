@@ -1,10 +1,11 @@
 public class Operators {
 
     public static void main(String[] args) {
+
         int ifStatementBoss = 3;
         int valueA = 10;
         int valueB = 20;
-        int examScore = 60;
+        int examScore = 54;
         String studentInitial = "b";
 
         if (examScore >= 70 && studentInitial == "A") {
@@ -15,6 +16,17 @@ public class Operators {
         } else {
             System.out.println("condition is else");
 
+        }
+        switch (examScore) {
+            case 60:
+                System.out.println("case 60");
+                break;
+            case 70:
+                System.out.println("case 70");
+                break;
+            default:
+                System.out.println("Chop breakfast");
+                break;
         }
     }
 }
